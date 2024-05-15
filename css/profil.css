@@ -1,0 +1,258 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    scroll-behavior: smooth;
+    transition: .5s;
+    font-family: "Oswald", serif;
+    cursor: default;
+}
+body {
+    background: #f5f5f5;
+}
+a {
+    cursor: pointer;
+}
+.section {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+/*
+====================
+Содержание
+====================
+*/
+.profil-content {
+    padding: 40px 0;
+}
+/* Приветствие */
+.profil-title {
+    padding: 15px 25px;
+    border-radius: 8px;
+    box-shadow: 0 0 12px 4px rgba(0, 0, 0, 0.25);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: white;
+}
+.profil-title p {
+    font-size: 24px;
+    font-weight: 300;
+}
+.profil-btn {
+    padding: 8px 0px;
+    border: 1px solid black;
+    border-radius: 4px;
+    background: transparent;
+    font-size: 22px;
+    color: black;
+    font-weight: 300;
+    width: 281px;
+    text-align: center;
+}
+.profil-btn:hover {
+    background: #000;
+    color: white;
+}
+/* Низ */
+.profil-sod {
+    margin-top: 25px;
+    display: flex;
+    gap: 25px;
+}
+.profil-description-f,.profil-description-s {
+    box-shadow: 0 0 12px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    background: white;
+}
+.description-title,.description-content {
+    padding: 15px 25px;
+}
+.description-title {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.description-title p {
+    font-size: 26px;
+    font-weight: 300;
+}
+.description-content {
+    display: flex;
+    flex-direction: column;
+}
+.description-content p,a {
+    font-size: 24px;
+    font-weight: 300;
+    color: #000;
+}
+/* Первая часть */
+.description-logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.description-logo p {
+    font-size: 26px;
+    font-weight: 300;
+}
+.profil-btn-t {
+    height: 50px;
+    padding: 0px 24px;
+    border: 1px solid black;
+    border-radius: 4px;
+    background: transparent;
+    font-size: 22px;
+    color: black;
+    font-weight: 300;
+}
+.profil-btn-t:hover {
+    background: #000;
+    color: white;
+}
+.profil-description-f {
+    width: 600px;
+}
+.profil-first {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.description-content input {
+    height: 65px;
+    background: #F0F0F0;
+    border: none;
+    padding: 0 15px;
+    font-size: 24px;
+    font-weight: 300;
+}
+.description-content input:focus {
+    outline: none;
+}
+/* Вторая часть */
+.profil-second {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.profil-description-s {
+    width: 775px;
+}
+.description-content-card {
+    height: 90px;
+    padding: 0px 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 24px;
+    font-weight: 300;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+}
+.description-photo {
+    margin: 25px 0;
+    display: flex;
+    gap: 10px;
+}
+.qr-code {
+    margin: 25px 0 10px 0;
+    height: 150px;
+    width: 150px;
+}
+.description-content-a {
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 25px;
+    font-size: 24px;
+    font-weight: 300;
+}
+/*
+====================
+Адаптив
+====================
+*/
+/* Планшет */
+@media screen and (max-width: 1450px) {
+    .profil-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .profil-title {
+        width: 760px;
+    }
+    .profil-sod {
+        flex-direction: column;
+    }
+    .profil-description-f {
+        width: 760px;
+    }
+    .profil-description-s {
+        width: 760px;
+    }
+    .description-logo p {
+        font-size: 26px;
+    }
+}
+/* Телефон */
+@media screen and (max-width: 799px) {
+    /* Шрифты */
+    .profil-title p {
+        font-size: 22px;
+    }
+    .description-title p {
+        font-size: 24px;
+    }
+    .description-content p,a {
+        font-size: 22px;
+    }
+    .description-content input {
+        font-size: 22px;
+    }
+    .description-content-card {
+        font-size: 22px;
+    }
+    .description-content-a {
+        font-size: 22px;
+    }
+    /* Остальное */
+    .profil-content {
+        padding: 20px 0;
+    }
+    .profil-title {
+        flex-direction: column;
+        line-height: 1.2;
+        gap: 10px;
+        width: 330px;
+        padding: 15px 24px;
+    }
+    .profil-description-f {
+        width: 330px;
+    }
+    .profil-description-s {
+        width: 330px;
+    }
+    .description-title {
+        align-items: flex-start;
+        flex-direction: column;
+        padding: 15px 24px;
+        gap: 10px;
+    }
+    .profil-btn-t {
+        width: 100%;
+    }
+    .description-content-card {
+        height: 119px;
+        justify-content: center;
+        align-items: flex-start;
+        flex-direction: column;
+    } 
+    .qr-code {
+        height: 125px;
+        width: 125px;
+    }
+}
