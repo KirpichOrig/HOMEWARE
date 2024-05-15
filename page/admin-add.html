@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin</title>
+    <link rel="stylesheet" href="../css/admin-add.css">
+    <link rel="stylesheet" href="../css/modal.css">
+    <link rel="stylesheet" href="../css/admin-menu.css">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="admin">
+        <div class="admin-content">
+            <div class="admin-menu-pc">
+                <div class="admin-menu-content">
+                    <div class="admin-title">
+                        <p class="h1">homeware</p>
+                        <p class="h2">админ панель</p>
+                    </div>
+                    <div class="admin-action">
+                        <div class="admin-action-link">
+                            <a href="admin.html"><img src="../media/admin/User.png" alt="">Пользователи</a>
+                            <a href="admin-add.html"><img src="../media/admin/Product.png" alt="">Товары</a>
+                        </div>
+                        <a href="../index.html" class="admin-action-out">Выйти с админ панели</a>
+                    </div>
+                </div>
+            </div>
+            <div class="admin-menu-mobile">
+                <div class="admin-menu-content">
+                    <div class="admin-title-mobile">
+                        <div class="admin-title-h1">
+                            <p>home</p>
+                            <p>ware</p>
+                        </div>
+                        <div class="admin-title-h2">
+                            <p>админ</p>
+                            <p>панель</p>
+                        </div>
+                    </div>
+                    <a id="burger-icon" class="admin-btn">Развернуть</a>
+                </div>
+                <div id="burger-menu" class="burger-menu">
+                    <a id="close-menu"><i class="fa-solid fa-xmark fa-xl" style="color: #000000;"></i></a>
+                    <div class="burger-content">
+                        <nav>
+                            <a href="admin.html">Пользователи</a> 
+                            <a href="admin-add.html">Товар</a> 
+                        </nav>
+                        <div class="action">
+                            <a href="../index.html" class="profil">Выйти с админ панели</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="admin-right-pc">
+                <div class="admin-sod">
+                    <p class="admin-sod-title">Добро пожаловать!</p>
+                    <div class="admin-sod-text">
+                        <p class="admin-sod-text-title">Товары</p>
+                        <div class="admin-sod-action">
+                            <p>ID</p>
+                            <p>Название</p>
+                            <p>Категория</p>
+                            <a class="product-description">Описание</a>
+                            <a href="">Удалить</a>
+                            <a href="">Редактировать</a>
+                        </div>
+                        <div class="admin-sod-action">
+                            <p>ID</p>
+                            <p>Название</p>
+                            <p>Категория</p>
+                            <a class="product-description">Описание</a>
+                            <a href="">Удалить</a>
+                            <a href="">Редактировать</a>
+                        </div>
+                        <div class="admin-sod-action">
+                            <p>ID</p>
+                            <p>Название</p>
+                            <p>Категория</p>
+                            <a class="product-description">Описание</a>
+                            <a href="">Удалить</a>
+                            <a href="">Редактировать</a>
+                        </div>
+                        <div class="admin-sod-action">
+                            <p>ID</p>
+                            <p>Название</p>
+                            <p>Категория</p>
+                            <a class="product-description">Описание</a>
+                            <a href="">Удалить</a>
+                            <a href="">Редактировать</a>
+                        </div>
+                        <div class="admin-sod-action">
+                            <p>ID</p>
+                            <p>Название</p>
+                            <p>Категория</p>
+                            <a class="product-description">Описание</a>
+                            <a href="">Удалить</a>
+                            <a href="">Редактировать</a>
+                        </div>
+                        <div class="admin-pagination">
+                            <a href="">1</a>
+                            <a href="">2</a>
+                            <a href="">3</a>
+                            <p class="admin-pagination-p">...</p>
+                            <a href="">12</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="admin-add">
+                    <p class="admin-add-title">Добавить товар</p>
+                    <form action="">
+                        <input type="text" placeholder="Название">
+                        <input type="text" placeholder="Категория">
+                        <input class="desc" type="text" placeholder="Описание">
+                        <div class="admin-cost">
+                            <input type="text" placeholder="Цена">
+                            <input type="text" placeholder="Цена со скидкой (Если есть)">
+                        </div>
+                        <button>подтвердить</button>
+                    </form>
+                </div>
+            </div>
+            <div class="admin-right-m">
+                <div class="admin-right-content">
+                    <p class="admin-right-title">Добро пожаловать!</p>
+                    <div class="add-admin">
+                        <p class="add-title">Добавить товар</p>
+                        <form class="add-form" action="">
+                            <input class="add-input" type="text" placeholder="Название">
+                            <input class="add-input" type="text" placeholder="Категория">
+                            <input class="add-desc" type="text" placeholder="Описание">
+                            <div class="add-cost">
+                                <input type="text" class="add-cost-input" placeholder="Цена">
+                                <input type="text" class="add-cost-input" placeholder="Цена со скидкой (Если есть)">
+                            </div>
+                            <button class="add-btn">подтвердить</button>
+                        </form>
+                    </div>
+                    <div class="product-admin">
+                        <p class="product-title">Товары</p>
+                        <div class="product-content">
+                            <div class="product">
+                                <div class="product-top">
+                                    <p>ID</p>
+                                    <p>Название</p>
+                                    <p>Категория</p>
+                                </div>
+                                <div class="product-down-pc">
+                                    <a class="product-description">Описание</a>
+                                    <a href="">Удалить</a>
+                                    <a href="">Редактировать</a>
+                                </div>
+                                <div class="product-down-m">
+                                    <div class="down">
+                                        <a href="">Удалить</a>
+                                        <a href="">Редактировать</a>
+                                    </div>
+                                    <a class="product-description">Описание</a>
+                                </div>
+                            </div>
+                            <div class="product">
+                                <div class="product-top">
+                                    <p>ID</p>
+                                    <p>Название</p>
+                                    <p>Категория</p>
+                                </div>
+                                <div class="product-down-pc">
+                                    <a class="product-description">Описание</a>
+                                    <a href="">Удалить</a>
+                                    <a href="">Редактировать</a>
+                                </div>
+                                <div class="product-down-m">
+                                    <div class="down">
+                                        <a href="">Удалить</a>
+                                        <a href="">Редактировать</a>
+                                    </div>
+                                    <a class="product-description">Описание</a>
+                                </div>
+                            </div>
+                            <div class="product">
+                                <div class="product-top">
+                                    <p>ID</p>
+                                    <p>Название</p>
+                                    <p>Категория</p>
+                                </div>
+                                <div class="product-down-pc">
+                                    <a class="product-description">Описание</a>
+                                    <a href="">Удалить</a>
+                                    <a href="">Редактировать</a>
+                                </div>
+                                <div class="product-down-m">
+                                    <div class="down">
+                                        <a href="">Удалить</a>
+                                        <a href="">Редактировать</a>
+                                    </div>
+                                    <a class="product-description">Описание</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="admin-pagination">
+                            <a href="">1</a>
+                            <a href="">2</a>
+                            <a href="">3</a>
+                            <p class="admin-pagination-p">...</p>
+                            <a href="">12</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Модальное окно -->
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <p>Телевизор Samsung UE50CU7100U основан на процессоре Crystal 4K и ОС Tizen. Модель получила 50-дюймовую панель с частотой обновления 60 Гц. Прибор поддерживает технологию HDR, цифровое шумоподавление и Smart TV. За чистое звучание отвечает акустика Dolby Digital Plus мощностью 20 Вт. Благодаря встроенным модулям Bluetooth и Wi-Fi можно управлять устройством при помощи смартфона.</p>
+        </div>
+    </div>
+    <script src="../script/modal.js"></script>
+    <script src="../script/main-menu.js"></script>
+</body>
+</html>

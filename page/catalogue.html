@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOMEWARE</title>
+    <link rel="stylesheet" href="../css/catalogue.css">
+    <link rel="stylesheet" href="../css/main-menu.css">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <!-- 1ый блок:
+        header -->
+    <header class="header-pc"> 
+        <div class="header-content section"> 
+            <a href="../index.html" class="header-title">HOMEWARE</a> 
+            <nav class="header-nav"> 
+                <a href="about.html">О нас</a> 
+                <a href="catalogue.html">Каталог</a> 
+                <a href="../index.html#map">Карта</a> 
+                <a href="../index.html#social">Контакты</a> 
+            </nav> 
+            <div class="header-search"> 
+                <img src="../media/icon/Search.png" alt=""> 
+                <input class="header-input" placeholder="ПОИСК"> 
+            </div> 
+            <div class="header-profil"> 
+                <a href="login.html">вход</a> 
+                <a href="sign.html">регистрация</a> 
+            </div> 
+        </div> 
+    </header> 
+    <header class="header-mobile"> 
+        <div class="header-content section"> 
+            <a href="../index.html" class="header-title">HOMEWARE</a> 
+            <img id="burger-icon" src="../media/icon/Menu.png" alt=""> 
+        </div> 
+        <div id="burger-menu" class="burger-menu">
+            <a id="close-menu"><i class="fa-solid fa-xmark fa-xl" style="color: #000000;"></i></a>
+            <div class="burger-content">
+                <nav>
+                    <a href="about.html">О нас</a> 
+                    <a href="catalogue.html">Каталог</a> 
+                    <a href="../index.html#map">Карта</a> 
+                    <a href="../index.html#social">Контакты</a> 
+                </nav>
+                <div class="search"> 
+                    <img src="../media/icon/Search.png" alt=""> 
+                    <input placeholder="ПОИСК"> 
+                </div> 
+                <div class="action">
+                    <div class="log-reg">
+                        <a href="login.html">Вход</a>
+                        <a href="sign.html">регистрация</a>
+                    </div>
+                    <a href="profil.html" class="profil">Профиль</a>
+                </div>
+            </div>
+        </div>        
+    </header>
+    <script src="../script/main-menu.js"></script>
+    <!-- 2ой блок:
+        catalogue -->
+    <div class="catalogue mt-100 py-20">
+        <div class="catalogue-content section">
+            <!-- пк версия -->
+            <div class="catalogue-products-pc">
+                <div class="catalogue-product">
+                    <img src="../media/catalogue/машина.png" alt="">
+                    <div class="catalogue-product-text">
+                        <div class="catalogue-name">
+                            <p>Стиральная машина Hisense</p>
+                        </div>
+                        <div class="catalogue-down">
+                            <div class="catalogue-cost">
+                                <p>27 999 ₽</p>
+                                <p class="delet">37 499</p>
+                            </div>
+                            <div class="catalogue-product-btn">
+                                <a href="../page/one.html">подробнее</a>
+                                <a href="../page/basket.html">в корзину</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="catalogue-product">
+                    <img src="../media/catalogue/TV.png" alt="">
+                    <div class="catalogue-product-text">
+                        <div class="catalogue-name">
+                            <p>Телевизор Samsung UE50CU7100U</p>
+                        </div>
+                        <div class="catalogue-down">
+                            <div class="catalogue-cost">
+                                <p>44 999 ₽</p>
+                                <p class="delet">59 999</p>
+                            </div>
+                            <div class="catalogue-product-btn">
+                                <a href="../page/one.html">подробнее</a>
+                                <a href="../page/basket.html">в корзину</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="catalogue-product">
+                    <img src="../media/catalogue/холодильник.png" alt="">
+                    <div class="catalogue-product-text">
+                        <div class="catalogue-name">
+                            <p>Холодильник  Bosch KGN56LB31U</p>
+                        </div>
+                        <div class="catalogue-down">
+                            <div class="catalogue-cost">
+                                <p>64 900 ₽</p>
+                                <p class="delet">67 999</p>
+                            </div>
+                            <div class="catalogue-product-btn">
+                                <a href="../page/one.html">подробнее</a>
+                                <a href="../page/basket.html">в корзину</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="catalogue-product">
+                    <img src="../media/catalogue/духовка.png" alt="">
+                    <div class="catalogue-product-text">
+                        <div class="catalogue-name">
+                            <p>Электрический духовой шкаф Bosch</p>
+                        </div>
+                        <div class="catalogue-down">
+                            <div class="catalogue-cost">
+                                <p>44 390 ₽</p>
+                                <p class="delet">48 999</p>
+                            </div>
+                            <div class="catalogue-product-btn">
+                                <a href="../page/one.html">подробнее</a>
+                                <a href="../page/basket.html">в корзину</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="catalogue-products-pc">
+                <div class="catalogue-product">
+                    <img src="../media/catalogue/машина.png" alt="">
+                    <div class="catalogue-product-text">
+                        <div class="catalogue-name">
+                            <p>Стиральная машина Hisense</p>
+                        </div>
+                        <div class="catalogue-down">
+                            <div class="catalogue-cost">
+                                <p>27 999 ₽</p>
+                                <p class="delet">37 499</p>
+                            </div>
+                            <div class="catalogue-product-btn">
+                                <a href="../page/one.html">подробнее</a>
+                                <a href="../page/basket.html">в корзину</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="catalogue-product">
+                    <img src="../media/catalogue/TV.png" alt="">
+                    <div class="catalogue-product-text">
+                        <div class="catalogue-name">
+                            <p>Телевизор Samsung UE50CU7100U</p>
+                        </div>
+                        <div class="catalogue-down">
+                            <div class="catalogue-cost">
+                                <p>44 999 ₽</p>
+                                <p class="delet">59 999</p>
+                            </div>
+                            <div class="catalogue-product-btn">
+                                <a href="../page/one.html">подробнее</a>
+                                <a href="../page/basket.html">в корзину</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="catalogue-product">
+                    <img src="../media/catalogue/холодильник.png" alt="">
+                    <div class="catalogue-product-text">
+                        <div class="catalogue-name">
+                            <p>Холодильник  Bosch KGN56LB31U</p>
+                        </div>
+                        <div class="catalogue-down">
+                            <div class="catalogue-cost">
+                                <p>64 900 ₽</p>
+                                <p class="delet">67 999</p>
+                            </div>
+                            <div class="catalogue-product-btn">
+                                <a href="../page/one.html">подробнее</a>
+                                <a href="../page/basket.html">в корзину</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="catalogue-product">
+                    <img src="../media/catalogue/духовка.png" alt="">
+                    <div class="catalogue-product-text">
+                        <div class="catalogue-name">
+                            <p>Электрический духовой шкаф Bosch</p>
+                        </div>
+                        <div class="catalogue-down">
+                            <div class="catalogue-cost">
+                                <p>44 390 ₽</p>
+                                <p class="delet">48 999</p>
+                            </div>
+                            <div class="catalogue-product-btn">
+                                <a href="../page/one.html">подробнее</a>
+                                <a href="../page/basket.html">в корзину</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="catalogue-products-pc">
+                <div class="catalogue-product">
+                    <img src="../media/catalogue/машина.png" alt="">
+                    <div class="catalogue-product-text">
+                        <div class="catalogue-name">
+                            <p>Стиральная машина Hisense</p>
+                        </div>
+                        <div class="catalogue-down">
+                            <div class="catalogue-cost">
+                                <p>27 999 ₽</p>
+                                <p class="delet">37 499</p>
+                            </div>
+                            <div class="catalogue-product-btn">
+                                <a href="../page/one.html">подробнее</a>
+                                <a href="../page/basket.html">в корзину</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="catalogue-product">
+                    <img src="../media/catalogue/TV.png" alt="">
+                    <div class="catalogue-product-text">
+                        <div class="catalogue-name">
+                            <p>Телевизор Samsung UE50CU7100U</p>
+                        </div>
+                        <div class="catalogue-down">
+                            <div class="catalogue-cost">
+                                <p>44 999 ₽</p>
+                                <p class="delet">59 999</p>
+                            </div>
+                            <div class="catalogue-product-btn">
+                                <a href="../page/one.html">подробнее</a>
+                                <a href="../page/basket.html">в корзину</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="catalogue-product">
+                    <img src="../media/catalogue/холодильник.png" alt="">
+                    <div class="catalogue-product-text">
+                        <div class="catalogue-name">
+                            <p>Холодильник  Bosch KGN56LB31U</p>
+                        </div>
+                        <div class="catalogue-down">
+                            <div class="catalogue-cost">
+                                <p>64 900 ₽</p>
+                                <p class="delet">67 999</p>
+                            </div>
+                            <div class="catalogue-product-btn">
+                                <a href="../page/one.html">подробнее</a>
+                                <a href="../page/basket.html">в корзину</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="catalogue-product">
+                    <img src="../media/catalogue/духовка.png" alt="">
+                    <div class="catalogue-product-text">
+                        <div class="catalogue-name">
+                            <p>Электрический духовой шкаф Bosch</p>
+                        </div>
+                        <div class="catalogue-down">
+                            <div class="catalogue-cost">
+                                <p>44 390 ₽</p>
+                                <p class="delet">48 999</p>
+                            </div>
+                            <div class="catalogue-product-btn">
+                                <a href="../page/one.html">подробнее</a>
+                                <a href="../page/basket.html">в корзину</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="catalogue-products-pc">
+                <div class="catalogue-product">
+                    <img src="../media/catalogue/машина.png" alt="">
+                    <div class="catalogue-product-text">
+                        <div class="catalogue-name">
+                            <p>Стиральная машина Hisense</p>
+                        </div>
+                        <div class="catalogue-down">
+                            <div class="catalogue-cost">
+                                <p>27 999 ₽</p>
+                                <p class="delet">37 499</p>
+                            </div>
+                            <div class="catalogue-product-btn">
+                                <a href="../page/one.html">подробнее</a>
+                                <a href="../page/basket.html">в корзину</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="catalogue-product">
+                    <img src="../media/catalogue/TV.png" alt="">
+                    <div class="catalogue-product-text">
+                        <div class="catalogue-name">
+                            <p>Телевизор Samsung UE50CU7100U</p>
+                        </div>
+                        <div class="catalogue-down">
+                            <div class="catalogue-cost">
+                                <p>44 999 ₽</p>
+                                <p class="delet">59 999</p>
+                            </div>
+                            <div class="catalogue-product-btn">
+                                <a href="../page/one.html">подробнее</a>
+                                <a href="../page/basket.html">в корзину</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="catalogue-product">
+                    <img src="../media/catalogue/холодильник.png" alt="">
+                    <div class="catalogue-product-text">
+                        <div class="catalogue-name">
+                            <p>Холодильник  Bosch KGN56LB31U</p>
+                        </div>
+                        <div class="catalogue-down">
+                            <div class="catalogue-cost">
+                                <p>64 900 ₽</p>
+                                <p class="delet">67 999</p>
+                            </div>
+                            <div class="catalogue-product-btn">
+                                <a href="../page/one.html">подробнее</a>
+                                <a href="../page/basket.html">в корзину</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="catalogue-product">
+                    <img src="../media/catalogue/духовка.png" alt="">
+                    <div class="catalogue-product-text">
+                        <div class="catalogue-name">
+                            <p>Электрический духовой шкаф Bosch</p>
+                        </div>
+                        <div class="catalogue-down">
+                            <div class="catalogue-cost">
+                                <p>44 390 ₽</p>
+                                <p class="delet">48 999</p>
+                            </div>
+                            <div class="catalogue-product-btn">
+                                <a href="../page/one.html">подробнее</a>
+                                <a href="../page/basket.html">в корзину</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- мобильная версия 800px -->
+            <div class="catalogue-products-mobile-800">
+                <div class="catalogue-product-top">
+                    <div class="catalogue-product">
+                        <img src="../media/catalogue/машина.png" alt="">
+                        <div class="catalogue-product-text">
+                            <div class="catalogue-name">
+                                <p>Стиральная машина Hisense</p>
+                            </div>
+                            <div class="catalogue-down">
+                                <div class="catalogue-cost">
+                                    <p>27 999 ₽</p>
+                                    <p class="delet">37 499</p>
+                                </div>
+                                <div class="catalogue-product-btn">
+                                    <a href="one.html">подробнее</a>
+                                    <a href="basket.html">в корзину</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="catalogue-product">
+                        <img src="../media/catalogue/TV.png" alt="">
+                        <div class="catalogue-product-text">
+                            <div class="catalogue-name">
+                                <p>Телевизор Samsung UE50CU7100U</p>
+                            </div>
+                            <div class="catalogue-down">
+                                <div class="catalogue-cost">
+                                    <p>44 999 ₽</p>
+                                    <p class="delet">59 999</p>
+                                </div>
+                                <div class="catalogue-product-btn">
+                                    <a href="one.html">подробнее</a>
+                                    <a href="basket.html">в корзину</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="catalogue-product-down">
+                    <div class="catalogue-product">
+                        <img src="../media/catalogue/холодильник.png" alt="">
+                        <div class="catalogue-product-text">
+                            <div class="catalogue-name">
+                                <p>Холодильник  Bosch KGN56LB31U</p>
+                            </div>
+                            <div class="catalogue-down">
+                                <div class="catalogue-cost">
+                                    <p>64 900 ₽</p>
+                                    <p class="delet">67 999</p>
+                                </div>
+                                <div class="catalogue-product-btn">
+                                    <a href="one.html">подробнее</a>
+                                    <a href="basket.html">в корзину</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="catalogue-product">
+                        <img src="../media/catalogue/духовка.png" alt="">
+                        <div class="catalogue-product-text">
+                            <div class="catalogue-name">
+                                <p>Электрический духовой шкаф Bosch</p>
+                            </div>
+                            <div class="catalogue-down">
+                                <div class="catalogue-cost">
+                                    <p>44 390 ₽</p>
+                                    <p class="delet">48 999</p>
+                                </div>
+                                <div class="catalogue-product-btn">
+                                    <a href="one.html">подробнее</a>
+                                    <a href="basket.html">в корзину</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="catalogue-btn">
+                    <a href="page/catalogue.html">показать еще</a>
+                </div>
+            </div>
+            <!-- мобильная версия 360px -->
+            <div class="catalogue-products-mobile-360">
+                <div class="product-360">
+                    <img src="../media/catalogue/машина.png" alt="">
+                    <div class="product-text-360">
+                        <p class="product-name-360">Стиральная машина Hisense</p>
+                        <div class="product-action-360">
+                            <div class="product-cost-360">
+                                <p>27 999 ₽</p>
+                                <p class="delet">37 499</p>
+                            </div>
+                            <div class="product-btn">
+                                <a href="one.html">подробнее</a>
+                                <a href="basket.html">в корзину</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-360">
+                    <img src="../media/catalogue/TV.png" alt="">
+                    <div class="product-text-360">
+                        <p class="product-name-360">Телевизор Samsung UE50CU7100U</p>
+                        <div class="product-action-360">
+                            <div class="product-cost-360">
+                                <p>44 999 ₽</p>
+                                <p class="delet">55 999</p>
+                            </div>
+                            <div class="product-btn">
+                                <a href="one.html">подробнее</a>
+                                <a href="basket.html">в корзину</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-360">
+                    <img src="../media/catalogue/холодильник.png" alt="">
+                    <div class="product-text-360">
+                        <p class="product-name-360">Холодильник  Bosch KGN56LB31U</p>
+                        <div class="product-action-360">
+                            <div class="product-cost-360">
+                                <p>64 900 ₽</p>
+                                <p class="delet">67 999</p>
+                            </div>
+                            <div class="product-btn">
+                                <a href="one.html">подробнее</a>
+                                <a href="basket.html">в корзину</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-360">
+                    <img src="../media/catalogue/духовка.png" alt="">
+                    <div class="product-text-360">
+                        <p class="product-name-360">Электрический духовой шкаф Bosch</p>
+                        <div class="product-action-360">
+                            <div class="product-cost-360">
+                                <p>43 390 ₽</p>
+                                <p class="delet">48 999</p>
+                            </div>
+                            <div class="product-btn">
+                                <a href="one.html">подробнее</a>
+                                <a href="basket.html">в корзину</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="catalogue-pagination">
+                <a href="">1</a>
+                <a href="">2</a>
+                <a href="">3</a>
+                <p class="catalogue-pagination-p">...</p>
+                <a href="">81</a>
+            </div>
+        </div>
+    </div>
+    <!-- 3ий блок:
+        footer -->
+    <footer class="mt-100">
+        <div class="footer-content section">
+            <div class="footer-text">
+                <nav class="footer-nav">
+                    <a href="../index.html" class="footer-logotip">HOMEWARE</a>
+                    <div class="footer-nav-a">
+                        <a class="footer-link" href="about.html">О нас</a>
+                        <a class="footer-link" href="catalogue.html">Каталог</a>
+                        <a class="footer-link" href="../index.html#map">Карта</a>
+                        <a class="footer-link" href="../index.html#social">Контакты</a>
+                    </div>
+                </nav>
+                <p class="footer-rool">@K1RP141K 2024 Все права защищены. Используя сайт, вы принимаете условия <a class="footer-ok" href="../file/Соглашение.pdf" download="Соглашение">соглашений</a> <br>
+                    Информация на сайте не является публичной офертой</p>
+            </div>
+        </div>
+        <div class="footer-content-mobile">
+            <a href="../index.html" class="footer-mobile">HOMEWARE</a>
+            <div class="footer-mobile-nav">
+                <a class="footer-link-mobile" href="about.html">О нас</a>
+                <a class="footer-link-mobile" href="catalogue.html">Каталог</a>
+                <a class="footer-link-mobile" href="../index.html#map">Карта</a>
+                <a class="footer-link-mobile" href="../index.html#social">Контакты</a>
+            </div>
+            <p class="footer-rool-mobile">@K1RP141K 2024 Все права защищены.
+                <br> Используя сайт, вы принимаете условия <a class="footer-ok" href="../file/Соглашение.pdf" download="Соглашение">соглашений</a>
+                <br>Информация на сайте не является публичной офертой</p>
+        </div>
+    </footer>
+</body>
+</html>
